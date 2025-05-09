@@ -26,5 +26,39 @@ public class Operation {
     public String toString() {
         return number1 + " " + operator + " " + number2 + " = " + result;
     }
+
+    public double getNumber1() {
+        return number1;
+    }
+
+    public double getNumber2() {
+        return number2;
+    }
+
+    public String getOperator() {
+        return operator;
+    }
+
+    public double getResult() {
+        return result;
+    }
+
+    public void setNumber1(double number1) {
+        this.number1 = number1;
+    }
+
+    public void setNumber2(double number2) {
+        this.number2 = number2;
+    }
+
+    public void setOperator(String operator) {
+        this.operator = operator;
+    }
+
+    public void setResult(double result) {
+        this.result = result;
+    }
+    
+    
     
 }
