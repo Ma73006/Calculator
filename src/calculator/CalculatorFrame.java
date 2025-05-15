@@ -294,7 +294,7 @@ public class CalculatorFrame extends javax.swing.JFrame {
             double result = calculator.potency(number1, number2);
             
             this.history.addOperation(new Operation(number1, number2, "^", result));
-            
+          
             ResultTextField.setText("" + result);
         }catch (Exception ex){
             JOptionPane.showMessageDialog(null, "Error", "Error", JOptionPane.ERROR_MESSAGE);
